@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+body{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+}
+.container{
+    width: 500px;
+    height: auto;
+    padding: 40px 30px;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+h4{
+    font-size: 20px;
+    color: #121212;
+}
+
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.input_field_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.input_field_box input{
+    border:5px;
+    max-width: 20%;
+    height: 60px;
+    text-align: center;
+    border-radius: 20px;
+    background: #f0f0f0;
+    font-size: 25px;
+}
+.input_field_box input::-webkit-inner-spin-button,
+.input_field_box input::-webkit-outer-spin-button{
+    display: none;
+}
+.input_field_box input:focus{
+    outline: 1.5px solid #00b991;
+    outline-offset:5px;
+    border-radius: 40px;
+}
+form button{
+    margin-top: 25px;
+    width: 92%;
+    color: #525252;
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    pointer-events: none;
+    cursor: pointer;
+    background: yellow;
+    transition: all 0.25s ease;
+}
+form button.active{
+    background: #ffcc00;
+    pointer-events: auto;
+    color:#000000;
+}
+form button:hover{
+    background: green;
+}
+body{
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    background-image: url(https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
